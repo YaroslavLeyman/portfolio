@@ -8,6 +8,7 @@
 	--black-border: #26292d;
 	--white: #fff;
 	--purple: #5c62ec;
+	--filter: invert(1);
 
 	/* Nav */
 	--nav-bg: var(--black);
@@ -37,6 +38,7 @@
 	/* Dark mode */
 	--page-bg: #252526;
 	--text-color: var(--white);
+	--filter: invert(0);
 
 	--title-1: var(--white);
 

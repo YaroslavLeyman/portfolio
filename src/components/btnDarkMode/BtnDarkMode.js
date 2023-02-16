@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-operators */
 import { useState, useEffect, useRef } from "react"
 
 import sun from "./../../img/icons/sun.svg"
@@ -11,6 +12,11 @@ function BtnDarkMode () {
     const [darkMode, setDarkMode] = useState("light");
     const btnRef = useRef(null);
 
+    const date = new Date();
+    const hours = date.getHours();
+    
+  
+
     useEffect(() => {
 
         if (darkMode === "dark") {
@@ -23,11 +29,21 @@ function BtnDarkMode () {
 
     }, [darkMode]);
 
+
+
     const toggleDarkMode = () => {
         setDarkMode((currentValue) => {
             return currentValue === "light" ? "dark" : "light";
         })
     };
+
+    useEffect(() => {
+        if ((hours >= 21 && hours < 24) || (hours >= 0 && hours <= 6) ) {
+            setDarkMode("dark")
+        } else {
+            setDarkMode("light")
+        }
+    }, [hours]);
 
     return (
         <button ref={btnRef} className="dark-mode-btn" onClick={toggleDarkMode}>
