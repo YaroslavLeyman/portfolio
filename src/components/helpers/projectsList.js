@@ -11,7 +11,7 @@ const projects = [
         skills: "React.js, Node.js, Express.js",
         img: projectGpt,
         imgBig: projectGpt,
-        gitHubLink: "https://github.com/",
+        gitHubLink: "https://github.com/YaroslavLeyman/Chat-Open-AI",
         linkLiveProject: "https://chat.itleiman.ru"
     }, 
     {
@@ -19,7 +19,7 @@ const projects = [
         skills: "MongoDB, Express.js, React.js, Node.js",
         img: projectImgAi,
         imgBig: projectImgAi,
-        gitHubLink: "https://github.com/",
+        gitHubLink: "https://github.com/YaroslavLeyman/AI-Image-Generation",
         linkLiveProject: "https://imgai.itleiman.ru"
     }, 
     {
