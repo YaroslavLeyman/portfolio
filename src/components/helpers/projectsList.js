@@ -1,52 +1,58 @@
-import project01 from "./../../img/projects/01.jpg"
-import project01Big from "./../../img/projects/01-big.jpg"
-import project02 from "./../../img/projects/02.jpg"
-import project02Big from "./../../img/projects/02-big.jpg"
+import projectGpt from "./../../img/projects/project-gpt.PNG"
+import projectImgAi from "./../../img/projects/project-imgai.PNG"
+import projectBurger from "./../../img/projects/project-burger.PNG"
+import projectMesto from "./../../img/projects/project-mesto.PNG"
+import projectPingPong from "./../../img/projects/project-ping-pong.PNG"
 
 
 const projects = [
     {
-        title: "Gaming streaming portal",
-        skills: "React, Node.js, MongoDB",
-        img: project01,
-        imgBig: project01Big,
-        gitHubLink: "https://github.com/"
+        title: "Chat OpenAI",
+        skills: "React.js, Node.js, Express.js",
+        img: projectGpt,
+        imgBig: projectGpt,
+        gitHubLink: "https://github.com/",
+        linkLiveProject: "https://chat.itleiman.ru"
     }, 
     {
-        title: "Video service",
-        skills: "React, Redux, typescript",
-        img: project02,
-        imgBig: project02Big,
-        gitHubLink: "https://github.com/"
+        title: "AI Image Generation",
+        skills: "MongoDB, Express.js, React.js, Node.js",
+        img: projectImgAi,
+        imgBig: projectImgAi,
+        gitHubLink: "https://github.com/",
+        linkLiveProject: "https://imgai.itleiman.ru"
     }, 
     {
-        title: "Gaming streaming portal",
-        skills: "React, Node.js, MongoDB",
-        img: project01,
-        imgBig: project01Big,
-        gitHubLink: "https://github.com/"
+        title: "Stellar Burgers",
+        skills: "React, TypeScript, Redux, React-DND, WebSocket",
+        img: projectBurger,
+        imgBig: projectBurger,
+        gitHubLink: "https://github.com/YaroslavLeyman/react-burger",
+        linkLiveProject: "https://yaroslavleyman.github.io/react-burger/"
     }, 
     {
-        title: "Gaming streaming portal",
-        skills: "React, Node.js, MongoDB",
-        img: project01,
-        imgBig: project01Big,
-        gitHubLink: "https://github.com/"
+        title: "Project Mesto",
+        skills: "JavaScript, HTML, CSS",
+        img: projectMesto,
+        imgBig: projectMesto,
+        gitHubLink: "https://github.com/YaroslavLeyman/mesto-project",
+        linkLiveProject: "https://yaroslavleyman.github.io/mesto-project/"
     }, 
     {
-        title: "Gaming streaming portal",
-        skills: "React, Node.js, MongoDB",
-        img: project01,
-        imgBig: project01Big,
-        gitHubLink: "https://github.com/"
+        title: "Ping-Pong",
+        skills: "Vanilla JavaScript",
+        img: projectPingPong,
+        imgBig: projectPingPong,
+        gitHubLink: "https://github.com/YaroslavLeyman/ping-pong-js",
+        linkLiveProject: "http://game.itleiman.ru"
     }, 
-    {
-        title: "Gaming streaming portal",
-        skills: "React, Node.js, MongoDB",
-        img: project01,
-        imgBig: project01Big,
-        gitHubLink: "https://github.com/"
-    }
+    // {
+    //     title: "Dashboard",
+    //     skills: "React, Typescript, MongoDB",
+    //     img: project06,
+    //     imgBig: project06Big,
+    //     gitHubLink: "https://github.com/"
+    // }
 ]
 
 export { projects }
