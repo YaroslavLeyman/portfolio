@@ -3,6 +3,7 @@ import projectImgAi from "./../../img/projects/project-imgai.PNG"
 import projectBurger from "./../../img/projects/project-burger.PNG"
 import projectMesto from "./../../img/projects/project-mesto.PNG"
 import projectPingPong from "./../../img/projects/project-ping-pong.PNG"
+import projectMinesweeper from "./../../img/projects/project-minesweeper.PNG"
 
 
 const projects = [
@@ -46,6 +47,14 @@ const projects = [
         gitHubLink: "https://github.com/YaroslavLeyman/ping-pong-js",
         linkLiveProject: "http://game.itleiman.ru"
     }, 
+    {
+        title: "Minesweeper",
+        skills: "Vanilla JavaScript",
+        img: projectMinesweeper,
+        imgBig: projectMinesweeper,
+        gitHubLink: "https://github.com/YaroslavLeyman/minesweeper-js",
+        linkLiveProject: "https://game.itleiman.ru/minesweeper/"
+    },
     // {
     //     title: "Dashboard",
     //     skills: "React, Typescript, MongoDB",
