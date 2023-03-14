@@ -1,9 +1,10 @@
 import projectGpt from "./../../img/projects/project-gpt.PNG"
 import projectImgAi from "./../../img/projects/project-imgai.PNG"
 import projectBurger from "./../../img/projects/project-burger.PNG"
-import projectMesto from "./../../img/projects/project-mesto.PNG"
+import projectCalc from "./../../img/projects/project-calculator.PNG"
 import projectPingPong from "./../../img/projects/project-ping-pong.PNG"
 import projectMinesweeper from "./../../img/projects/project-minesweeper.PNG"
+import projectMesto from "./../../img/projects/project-mesto.PNG"
 
 
 const projects = [
@@ -32,12 +33,12 @@ const projects = [
         linkLiveProject: "https://yaroslavleyman.github.io/react-burger/"
     }, 
     {
-        title: "Project Mesto",
-        skills: "JavaScript, HTML, CSS",
-        img: projectMesto,
-        imgBig: projectMesto,
-        gitHubLink: "https://github.com/YaroslavLeyman/mesto-project",
-        linkLiveProject: "https://yaroslavleyman.github.io/mesto-project/"
+        title: "Calculator-Constructor",
+        skills: "TypeScript, React, Redux, Redux toolkit",
+        img: projectCalc,
+        imgBig: projectCalc,
+        gitHubLink: "https://github.com/YaroslavLeyman/calculator-constructor-ts",
+        linkLiveProject: "https://calc.itleiman.ru/"
     }, 
     {
         title: "Ping-Pong",
@@ -55,13 +56,14 @@ const projects = [
         gitHubLink: "https://github.com/YaroslavLeyman/minesweeper-js",
         linkLiveProject: "https://game.itleiman.ru/minesweeper/"
     },
-    // {
-    //     title: "Dashboard",
-    //     skills: "React, Typescript, MongoDB",
-    //     img: project06,
-    //     imgBig: project06Big,
-    //     gitHubLink: "https://github.com/"
-    // }
+    {
+        title: "Mesto",
+        skills: "React, TypeScript, Redux, React-DND, WebSocket",
+        img: projectMesto,
+        imgBig: projectMesto,
+        gitHubLink: "https://github.com/YaroslavLeyman/mesto-project",
+        linkLiveProject: "https://yaroslavleyman.github.io/mesto-project/"
+    }
 ]
 
 export { projects }
