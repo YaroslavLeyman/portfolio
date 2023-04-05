@@ -22,7 +22,7 @@ const projects = [
         img: projectImgAi,
         imgBig: projectImgAi,
         gitHubLink: "https://github.com/YaroslavLeyman/AI-Image-Generation",
-        linkLiveProject: "https://generationAI.itleiman.ru"
+        linkLiveProject: "https://generationai.itleiman.ru"
     }, 
     {
         title: "Stellar Burgers",
