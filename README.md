@@ -14,7 +14,5 @@
 ## В проекте использованы следующие технологии:
 
 + React.js
-+ React-router
-+ HTML
++ React-router-dom
 + CSS
-
