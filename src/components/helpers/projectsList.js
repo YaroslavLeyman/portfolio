@@ -1,13 +1,45 @@
 import projectGpt from "./../../img/projects/project-gpt.PNG"
-import projectImgAi from "./../../img/projects/project-imgai.PNG"
-import projectBurger from "./../../img/projects/project-burger.PNG"
+import projectBurger from "./../../img/projects/project-burger.jpg"
+import projectBurgerBig from "./../../img/projects/project-burger-big.PNG"
 import projectCalc from "./../../img/projects/project-calculator.PNG"
-import projectPingPong from "./../../img/projects/project-ping-pong.PNG"
-import projectMinesweeper from "./../../img/projects/project-minesweeper.PNG"
+import projectPingPong from "./../../img/projects/project-ping-pong.png"
+import projectPingPongBig from "./../../img/projects/project-ping-pong-big.PNG"
+import projectMinesweeper from "./../../img/projects/project-minesweeper.jpg"
+import projectMinesweeperBig from "./../../img/projects/project-minesweeper-big.PNG"
 import projectMesto from "./../../img/projects/project-mesto.PNG"
+import projectQuiz from "./../../img/projects/project-quiz.jpg"
+import projectQuizBig from "./../../img/projects/project-quiz-big.PNG"
+import projectCloud from "./../../img/projects/project-cloud.jpg"
+import projectCloudBig from "./../../img/projects/project-cloud-big.PNG"
+import projectEmployees from "./../../img/projects/project-employees.png"
+import projectEmployeesBig from "./../../img/projects/project-employees-big.PNG"
 
 
 const projects = [
+    {
+        title: "Quizzes Constructor",
+        skills: "React.js, React-DND, Redux, Redux-Thunk, Bootstrap",
+        img: projectQuiz,
+        imgBig: projectQuizBig,
+        gitHubLink: "https://github.com/YaroslavLeyman/smart-constructor-questionnaire",
+        linkLiveProject: "https://yaroslavleyman.github.io/smart-constructor-questionnaire/"
+    },
+    {
+        title: "Cloud Storage",
+        skills: "NextJS 13, TypeScript, Ant Design, Nookies, Axios, NestJS, TypeORM + PostgreSQL, Swagger, PassportJS + JWT",
+        img: projectCloud,
+        imgBig: projectCloudBig,
+        gitHubLink: "https://github.com/YaroslavLeyman/cloud-storage",
+        linkLiveProject: "https://cloud.itleiman.ru"
+    },
+    {
+        title: "Employees",
+        skills: "React, TypeScript, Redux-Toolkit, RTK-Query, Ant Design, Express, JWT Token, Prisma",
+        img: projectEmployees,
+        imgBig: projectEmployeesBig,
+        gitHubLink: "https://github.com/YaroslavLeyman/employees",
+        linkLiveProject: "https://employees.itleiman.ru"
+    },
     {
         title: "Chat OpenAI",
         skills: "React.js, Node.js, Express.js",
@@ -17,34 +49,26 @@ const projects = [
         linkLiveProject: "https://chat.itleiman.ru"
     }, 
     {
-        title: "AI Image Generation",
-        skills: "MongoDB, Express.js, React.js, Node.js",
-        img: projectImgAi,
-        imgBig: projectImgAi,
-        gitHubLink: "https://github.com/YaroslavLeyman/AI-Image-Generation",
-        linkLiveProject: "https://generationai.itleiman.ru"
-    }, 
-    {
-        title: "Stellar Burgers",
-        skills: "React, TypeScript, Redux, React-DND, WebSocket",
-        img: projectBurger,
-        imgBig: projectBurger,
-        gitHubLink: "https://github.com/YaroslavLeyman/react-burger",
-        linkLiveProject: "https://yaroslavleyman.github.io/react-burger/"
-    }, 
-    {
-        title: "Calculator-Constructor",
+        title: "Calculator Constructor",
         skills: "TypeScript, React, Redux, Redux toolkit",
         img: projectCalc,
         imgBig: projectCalc,
         gitHubLink: "https://github.com/YaroslavLeyman/calculator-constructor-ts",
         linkLiveProject: "https://calc.itleiman.ru/"
-    }, 
+    },
+    {
+        title: "Burgers",
+        skills: "React, TypeScript, Redux, React-DND, WebSocket",
+        img: projectBurger,
+        imgBig: projectBurgerBig,
+        gitHubLink: "https://github.com/YaroslavLeyman/react-burger",
+        linkLiveProject: "https://yaroslavleyman.github.io/react-burger/"
+    },  
     {
         title: "Ping-Pong",
         skills: "Vanilla JavaScript",
         img: projectPingPong,
-        imgBig: projectPingPong,
+        imgBig: projectPingPongBig,
         gitHubLink: "https://github.com/YaroslavLeyman/ping-pong-js",
         linkLiveProject: "http://game.itleiman.ru"
     }, 
@@ -52,13 +76,13 @@ const projects = [
         title: "Minesweeper",
         skills: "Vanilla JavaScript",
         img: projectMinesweeper,
-        imgBig: projectMinesweeper,
+        imgBig: projectMinesweeperBig,
         gitHubLink: "https://github.com/YaroslavLeyman/minesweeper-js",
         linkLiveProject: "https://game.itleiman.ru/minesweeper/"
     },
     {
         title: "Mesto",
-        skills: "React, TypeScript, Redux, React-DND, WebSocket",
+        skills: "JavaScript, Webpack, Babel, PostCSS",
         img: projectMesto,
         imgBig: projectMesto,
         gitHubLink: "https://github.com/YaroslavLeyman/mesto-project",

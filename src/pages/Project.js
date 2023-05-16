@@ -19,7 +19,8 @@ function Project () {
                     <img src={project.imgBig} alt={project.title} className="project-details__cover" />
 
                     <div className="project-details__desc">
-                        <p>Skills: {project.skills}</p>
+                        <p>Technologies used:</p>
+                        <p>{project.skills}</p>
                     </div>
                     
                     <div className="project-details__buttons">

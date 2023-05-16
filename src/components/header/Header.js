@@ -11,7 +11,7 @@ function Header () {
                 <div className="header__text">
                     <p>with passion for learning and creating.</p>
                 </div>
-                <a href="https://career.habr.com/yaroslavleyman/print.pdf" target="_blank" rel="noreferrer" className="btn">Download CV</a>
+                <a href="https://github.com/YaroslavLeyman" target="_blank" rel="noreferrer" className="btn">GitHub</a>
             </div>
         </header>
     )
