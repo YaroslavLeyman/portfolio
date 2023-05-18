@@ -10,12 +10,12 @@ function Contacts () {
                         <p>Moscow, Russia</p>
                     </li>
                     <li className="content-list__item">
-                        <h2 className="title-2">Telegram / WhatsApp</h2>
-                        <p><a href="tel:+79051234567">+7 (966) 143-33-00</a></p>
+                        <h2 className="title-2">Telegram</h2>
+                        <a href="https://t.me/Yaroslav_lmn" target="_blank" rel="noreferrer">@Yaroslav_lmn</a>
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Email</h2>
-                        <p><a href="mailto:yaroslavleiman@yandex.ru">yaroslavleiman@yandex.ru</a></p>
+                        <a href="mailto:yaroslavleiman@yandex.ru" target="_blank" rel="noreferrer">yaroslavleiman@yandex.ru</a>
                     </li>
                 </ul>
             </div>
