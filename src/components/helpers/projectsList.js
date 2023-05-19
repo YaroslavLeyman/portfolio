@@ -54,7 +54,7 @@ const projects = [
         img: projectCalc,
         imgBig: projectCalc,
         gitHubLink: "https://github.com/YaroslavLeyman/calculator-constructor-ts",
-        linkLiveProject: "https://calc.itleiman.ru/"
+        linkLiveProject: "https://yaroslavleyman.github.io/calculator-constructor-ts/"
     },
     {
         title: "Burgers",
@@ -70,7 +70,7 @@ const projects = [
         img: projectPingPong,
         imgBig: projectPingPongBig,
         gitHubLink: "https://github.com/YaroslavLeyman/ping-pong-js",
-        linkLiveProject: "http://game.itleiman.ru"
+        linkLiveProject: "https://yaroslavleyman.github.io/ping-pong-js/"
     }, 
     {
         title: "Minesweeper",
@@ -78,7 +78,7 @@ const projects = [
         img: projectMinesweeper,
         imgBig: projectMinesweeperBig,
         gitHubLink: "https://github.com/YaroslavLeyman/minesweeper-js",
-        linkLiveProject: "https://game.itleiman.ru/minesweeper/"
+        linkLiveProject: "https://yaroslavleyman.github.io/minesweeper-js/"
     },
     {
         title: "Mesto",
