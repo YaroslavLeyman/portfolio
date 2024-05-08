@@ -13,7 +13,7 @@ function Footer () {
                         <li className="social__item"><a href="https://t.me/Yaroslav_lmn" target="_blank" rel="noreferrer"><img src={telegram} alt="Link" /></a></li>
                     </ul>
                     <div className="copyright">
-                        <p>© 2023 Yaroslav Leiman</p>
+                        <p>© 2024 Yaroslav Leiman</p>
                     </div>
                 </div>
             </div>

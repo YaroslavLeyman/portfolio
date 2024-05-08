@@ -1,7 +1,7 @@
 /* Footer */
 .footer {
 	margin-top: auto;
-	padding: 60px 0 50px;
+	padding: 25px 0;
 	background-color: var(--footer-bg);
 	color: var(--footer-text);
 }
@@ -17,6 +17,15 @@
 	display: flex;
 	column-gap: 30px;
 	align-items: center;
+}
+
+.social__item {
+	transition: transform 0.4s;
+}
+
+.social__item:hover,
+.social__item:active {
+	transform: scale(1.1);
 }
 
 .copyright {

@@ -8,9 +8,9 @@ function Header () {
                     <strong>Hi, my name is <em>Yaroslav</em></strong><br />
                     a frontend developer
                 </h1>
-                <div className="header__text">
+                {/* <div className="header__text">
                     <p>with passion for learning and creating.</p>
-                </div>
+                </div> */}
                 <a href="https://github.com/YaroslavLeyman" target="_blank" rel="noreferrer" className="btn">GitHub</a>
             </div>
         </header>

@@ -1,93 +1,119 @@
-import projectGpt from "./../../img/projects/project-gpt.PNG"
-import projectBurger from "./../../img/projects/project-burger.jpg"
-import projectBurgerBig from "./../../img/projects/project-burger-big.PNG"
-import projectCalc from "./../../img/projects/project-calculator.PNG"
-import projectPingPong from "./../../img/projects/project-ping-pong.png"
-import projectPingPongBig from "./../../img/projects/project-ping-pong-big.PNG"
-import projectMinesweeper from "./../../img/projects/project-minesweeper.jpg"
-import projectMinesweeperBig from "./../../img/projects/project-minesweeper-big.PNG"
-import projectMesto from "./../../img/projects/project-mesto.PNG"
 import projectQuiz from "./../../img/projects/project-quiz.jpg"
 import projectQuizBig from "./../../img/projects/project-quiz-big.PNG"
 import projectCloud from "./../../img/projects/project-cloud.jpg"
 import projectCloudBig from "./../../img/projects/project-cloud-big.PNG"
 import projectEmployees from "./../../img/projects/project-employees.png"
 import projectEmployeesBig from "./../../img/projects/project-employees-big.PNG"
+import projectWeather from "./../../img/projects/project-weather.jpg"
+import projectWeatherBig from "./../../img/projects/project-weather-big.PNG"
+import projectGithub from "./../../img/projects/project-github.jpg"
+import projectGithubBig from "./../../img/projects/project-github-big.PNG"
 
+import projectFreelife from "./../../img/projects/project-freelife.png"
+import projectFreelifeBig from "./../../img/projects/project-freelife-big.PNG"
+import projectMezzanineShop from "./../../img/projects/project-mezzanine.png"
+import projectMezzanineShopBig from "./../../img/projects/project-mezzanine-big.PNG"
+import projectMezzanineFabric from "./../../img/projects/project-mezzanine-fabric.png"
+import projectMezzanineFabricBig from "./../../img/projects/project-mezzanine-fabric-big.PNG"
+import projectWarming from "./../../img/projects/project-warming.png"
+import projectWarmingBig from "./../../img/projects/project-warming-big.PNG"
 
 const projects = [
     {
-        title: "Quizzes Constructor",
-        skills: "React.js, React-DND, Redux, Redux-Thunk, Bootstrap",
+        id: 0,
+        type: "pet",
+        title: "Quizzes Constructor (Frontend)",
+        skillsFrontend: "React, JavaScript, React-DND, Redux, Redux-Thunk, Bootstrap",
         img: projectQuiz,
         imgBig: projectQuizBig,
         gitHubLink: "https://github.com/YaroslavLeyman/smart-constructor-questionnaire",
         linkLiveProject: "https://yaroslavleyman.github.io/smart-constructor-questionnaire/"
     },
     {
-        title: "Cloud Storage",
-        skills: "NextJS 13, TypeScript, Ant Design, Nookies, Axios, NestJS, TypeORM + PostgreSQL, Swagger, PassportJS + JWT",
+        id: 1,
+        type: "pet",
+        title: "GitHub like app (FullStack)",
+        skillsFrontend: "React, JavaScript, Tailwind CSS, Vite",
+        skillsBackend: "Express, MongoDB, Passport + Passport-github2",
+        img: projectGithub,
+        imgBig: projectGithubBig,
+        gitHubLink: "https://github.com/YaroslavLeyman/github-like-app",
+        linkLiveProject: "https://github-like-app-f5ze.onrender.com"
+    },
+    {
+        id: 2,
+        type: "pet",
+        title: "Weather (Frontend)",
+        skillsFrontend: "React, JavaScript, Chart.js, Redux-Toolkit, Tailwind CSS, Vite",
+        img: projectWeather,
+        imgBig: projectWeatherBig,
+        gitHubLink: "https://github.com/YaroslavLeyman/weather-app",
+        linkLiveProject: "https://YaroslavLeyman.github.io/weather-app"
+    },
+    {
+        id: 3,
+        type: "pet",
+        title: "Cloud Storage (FullStack)",
+        skillsFrontend: "NextJS, TypeScript, Ant Design",
+        skillsBackend: "NestJS, TypeORM + PostgreSQL, Swagger, PassportJS + JWT",
         img: projectCloud,
         imgBig: projectCloudBig,
         gitHubLink: "https://github.com/YaroslavLeyman/cloud-storage",
         linkLiveProject: "https://cloud.itleiman.ru"
     },
     {
-        title: "Employees",
-        skills: "React, TypeScript, Redux-Toolkit, RTK-Query, Ant Design, Express, JWT Token, Prisma",
+        id: 4,
+        type: "pet",
+        title: "Employees (FullStack)",
+        skillsFrontend: "React, TypeScript, Redux-Toolkit, RTK-Query, Ant Design",
+        skillsBackend: "Express, JWT, Prisma",
         img: projectEmployees,
         imgBig: projectEmployeesBig,
         gitHubLink: "https://github.com/YaroslavLeyman/employees",
         linkLiveProject: "https://employees.itleiman.ru"
     },
+
+
+    /*-----------------Commercial projects----------------- */
     {
-        title: "Chat OpenAI",
-        skills: "React.js, Node.js, Express.js",
-        img: projectGpt,
-        imgBig: projectGpt,
-        gitHubLink: "https://github.com/YaroslavLeyman/Chat-Open-AI",
-        linkLiveProject: "https://chat.itleiman.ru"
-    }, 
-    {
-        title: "Calculator Constructor",
-        skills: "TypeScript, React, Redux, Redux toolkit",
-        img: projectCalc,
-        imgBig: projectCalc,
-        gitHubLink: "https://github.com/YaroslavLeyman/calculator-constructor-ts",
-        linkLiveProject: "https://yaroslavleyman.github.io/calculator-constructor-ts/"
+        id: 5,
+        type: "commercial",
+        title: "Freelife",
+        skillsFrontend: "React, TypeScript, Redux Toolkit, Sass, MUI, AntD Chart",
+        skillsBackend: "PHP, Laravel, PostgreSQL, Docker",
+        img: projectFreelife,
+        imgBig: projectFreelifeBig,
+        linkLiveProject: "https://free-life.app"
     },
     {
-        title: "Burgers",
-        skills: "React, TypeScript, Redux, React-DND, WebSocket",
-        img: projectBurger,
-        imgBig: projectBurgerBig,
-        gitHubLink: "https://github.com/YaroslavLeyman/react-burger",
-        linkLiveProject: "https://yaroslavleyman.github.io/react-burger/"
-    },  
-    {
-        title: "Ping-Pong",
-        skills: "Vanilla JavaScript",
-        img: projectPingPong,
-        imgBig: projectPingPongBig,
-        gitHubLink: "https://github.com/YaroslavLeyman/ping-pong-js",
-        linkLiveProject: "https://yaroslavleyman.github.io/ping-pong-js/"
-    }, 
-    {
-        title: "Minesweeper",
-        skills: "Vanilla JavaScript",
-        img: projectMinesweeper,
-        imgBig: projectMinesweeperBig,
-        gitHubLink: "https://github.com/YaroslavLeyman/minesweeper-js",
-        linkLiveProject: "https://yaroslavleyman.github.io/minesweeper-js/"
+        id: 6,
+        type: "commercial",
+        title: "Mezzanine shop",
+        skillsFrontend: "JavaScript, React, Redux, Bootstrap",
+        skillsBackend: "MongoDB, Node.js, Express.js",
+        img: projectMezzanineShop,
+        imgBig: projectMezzanineShopBig,
+        linkLiveProject: "https://m-mezzanine.com"
     },
     {
-        title: "Mesto",
-        skills: "JavaScript, Webpack, Babel, PostCSS",
-        img: projectMesto,
-        imgBig: projectMesto,
-        gitHubLink: "https://github.com/YaroslavLeyman/mesto-project",
-        linkLiveProject: "https://yaroslavleyman.github.io/mesto-project/"
-    }
+        id: 7,
+        type: "commercial",
+        title: "Mezzanine fabric",
+        skillsFrontend: "TypeScript, NextJS, Redux, Bootstrap",
+        skillsBackend: "MongoDB, Node.js, Express.js",
+        img: projectMezzanineFabric,
+        imgBig: projectMezzanineFabricBig,
+        linkLiveProject: "https://m-mezzanine.ru/"
+    },
+    {
+        id: 8,
+        type: "commercial",
+        title: "Warming up the car",
+        skillsFrontend: "JavaScript, NextJS, Bootstrap",
+        img: projectWarming,
+        imgBig: projectWarmingBig,
+        linkLiveProject: "https://otogrev.kik-klimat.ru"
+    },
 ]
 
 export { projects }

@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom"
 import "./style.css"
 
 
-function Project ({title, img, index}) {
+function Project ({id, title, img}) {
     return (
-        <NavLink to={`/project/${index}`}>
+        <NavLink to={`/project/${id}`}>
             <li className="project">
                 <img src={img} alt={title} className="project__img" />
                 <h3 className="project__title">{title}</h3>
